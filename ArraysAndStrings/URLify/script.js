@@ -10,6 +10,6 @@ function removeSpaces(str, trueLength)
 {
     // str= str.slice(0,trueLength-str.length)
     //str = str.trim()
-    //return str.replaceAll(' ', '%20')
+    //return str.trim().replaceAll(' ', '%20')
     return str.trim().split(' ').join('%20') //if you cannot use replaceAll
 }
